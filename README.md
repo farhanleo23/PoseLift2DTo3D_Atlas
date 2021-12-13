@@ -14,7 +14,8 @@ python3 run.py -d custom -k myvideos -arc 3,3,3,3,3 --render --viz-subject input
 
 eg: python3 run.py -d custom -k myvideos -arc 3,3,3,3,3 --render --viz-subject right_turn.mp4 --viz-action custom --viz-camera 0 --viz-video /home/HwHiAiUser/HIAI_PROJECTS/videopose3d_om/custom_video_input/right_turn.mp4 --viz-output /home/HwHiAiUser/HIAI_PROJECTS/videopose3d_om/custom_video_output/right_turn.mp4 --viz-size 6
 
-Note: 
+# Note: 
+
 i] The application is capable of lifting a 2D pose to 3D pose. Hence a 2D keypoint detector like Keypoint-RCNN from torchvision or Detectron2 framework has to be used to    detect the 2D key points in the input video. 
       
 ii] The input video has to be interpolated to have 50 fps for best results. 
