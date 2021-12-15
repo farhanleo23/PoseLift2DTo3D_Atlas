@@ -10,7 +10,7 @@ The model is trained on Human3.6M dataset and converted to offline format (.om) 
 
 To test the above framework, run:
 
-python3 run.py -d custom -k myvideos -arc 3,3,3,3,3 --render --viz-subject input_video_file_name --viz-action custom --viz-camera 0 --viz-video path/to/custom_vide/input --viz-output path/to/output_file_directory --viz-size 6
+python3 run.py -d custom -k myvideos -arc 3,3,3,3,3 --render --viz-subject input_video_file_name --viz-action custom --viz-camera 0 --viz-video path/to/custom_video/input --viz-output path/to/output_file_directory --viz-size 6
 
 eg: python3 run.py -d custom -k myvideos -arc 3,3,3,3,3 --render --viz-subject right_turn.mp4 --viz-action custom --viz-camera 0 --viz-video /home/HwHiAiUser/HIAI_PROJECTS/videopose3d_om/custom_video_input/right_turn.mp4 --viz-output /home/HwHiAiUser/HIAI_PROJECTS/videopose3d_om/custom_video_output/right_turn.mp4 --viz-size 6
 
